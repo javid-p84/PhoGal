@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PhGal", "PhGal\PhGal.njsproj", "{8883F72C-5E96-4EFE-8807-7C500AAF17CA}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PhoGal.Api", "PhGal\PhoGal.Api.njsproj", "{8883F72C-5E96-4EFE-8807-7C500AAF17CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoGal.Portal", "PhoGal.Portal\PhoGal.Portal.csproj", "{DF6DAD74-0E83-4823-81CB-595175321589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoGal.Portal", "PhoGal.Portal\PhoGal.Portal.csproj", "{DF6DAD74-0E83-4823-81CB-595175321589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

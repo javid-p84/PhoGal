@@ -1,0 +1,9 @@
+{
+  "name": "ph-gal",
+  "version": "0.0.0",
+  "description": "PhGal",
+  "main": "server.js",
+  "author": {
+    "name": "Javid"
+  }
+}

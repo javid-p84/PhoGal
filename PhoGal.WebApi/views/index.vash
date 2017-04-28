@@ -1,0 +1,17 @@
+﻿@html.extend('layout',function(mdoel){
+	@html.block("body",function(model){
+
+	<h1>
+	@model.hey
+
+
+	@model.others.forEach(function(obj){
+		<h1>
+		@obj.name
+		</h1>
+		<br/>
+	
+	});
+	</h1>
+	});
+});

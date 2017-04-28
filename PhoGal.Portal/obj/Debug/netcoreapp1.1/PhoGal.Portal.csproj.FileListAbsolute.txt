@@ -1,0 +1,9 @@
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\bin\Debug\netcoreapp1.1\PhoGal.Portal.deps.json
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\bin\Debug\netcoreapp1.1\PhoGal.Portal.runtimeconfig.json
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\bin\Debug\netcoreapp1.1\PhoGal.Portal.runtimeconfig.dev.json
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\bin\Debug\netcoreapp1.1\PhoGal.Portal.dll
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\bin\Debug\netcoreapp1.1\PhoGal.Portal.pdb
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\obj\Debug\netcoreapp1.1\PhoGal.Portal.AssemblyInfo.cs
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\obj\Debug\netcoreapp1.1\PhoGal.Portal.dll
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\obj\Debug\netcoreapp1.1\PhoGal.Portal.pdb
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.Portal\obj\Debug\netcoreapp1.1\PhoGal.Portal.csprojResolveAssemblyReference.cache

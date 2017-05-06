@@ -34,10 +34,16 @@
     <Compile Include="controllers\index.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="data\database.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="data\index.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="data\seedData.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gruntfile.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="server.js" />

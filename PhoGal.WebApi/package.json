@@ -7,11 +7,13 @@
     "name": "Javid"
   },
   "devDependencies": {
-    "gulp": "3.9.1",
     "express": "4.15.2",
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "grunt-nodemon": "^0.4.2",
+    "gulp": "3.9.1"
   },
   "dependencies": {
+    "mongodb": "^2.2.26",
     "underscore": "^1.8.3",
     "vash": "^0.12.2"
   }

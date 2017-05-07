@@ -17,21 +17,37 @@
 
         app.get('/v2', function (req, res) {
 
-            data.getCategories(function (err, results) {
+            data.getNotes(function (err, results) {
 
-                res.render("index", { title: "Exp+Vash", hey: "v2222222222222222222222222222222", others: results });
+                if (err) {
+                    console.log(err)
+                }
+                else {
 
-                console.log('hello'); 
+
+                    res.render("index", { title: "Exp+Vash", hey: "v2222222222222222222222222222222", others: results });
+                }
             });
 
         });
 
         app.post('/v3', function (req, res) {
-            console.log(req.body);
 
-            res.redirect('/v2');
+            data.createName(req.body.name, function (err) {
+                if (err) {
+
+                }
+                else {
+                    res.redirect('/v2');
+
+                }
+            });
+
         });
 
     }
+
+
+
 
 })(module.exports);

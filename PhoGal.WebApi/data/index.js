@@ -13,7 +13,7 @@
                 console.log('error on connecting to Db : ' + err);
             }
             else {
-                
+
                 db.notes.count(function (err, count) {
                     if (err) {
                         console.log('error on connecting to count Db : ' + err);
@@ -42,6 +42,68 @@
 
             }
 
+        });
+
+    }
+
+    data.getNotes = function (next) {
+
+        database.getDb(function (err, db) {
+
+            if (err) {
+
+                console.log(err);
+                next(err);
+            }
+            else {
+
+                db.notes.find().toArray(function (err, items) {
+                    if (err) {
+                        next(err)
+                    }
+                    else {
+                        next(null, items);
+                    }
+                });
+            }
+        });
+
+    }
+
+
+    data.createName = function (newName, next) {
+
+        database.getDb(function (err, db) {
+
+            if (err) {
+
+                console.log(err);
+                next(err);
+            }
+            else {
+
+                var name = { name: newName };
+
+                db.notes.find(name).count(function (err, count) {
+
+                    if (count > 0) {
+                        var err = 'already exist';
+                        next(err);
+                    }
+                    else {
+
+                        db.notes.insert(name, function (err) {
+                            if (err) {
+                                console.log('error on connecting to insert Db : ' + err);
+                                next(err);
+                            }
+                            else
+                                next();
+
+                        });
+                    }
+                });
+            }
         });
 
     }

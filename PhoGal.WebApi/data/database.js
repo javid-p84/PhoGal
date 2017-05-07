@@ -25,6 +25,7 @@
         } else {
             next(null, theDb);
         }
-    }
+    };
+
 
 })(module.exports);

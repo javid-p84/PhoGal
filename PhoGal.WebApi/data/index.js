@@ -87,7 +87,7 @@
                 db.notes.find(name).count(function (err, count) {
 
                     if (count > 0) {
-                        var err = 'already exist';
+                        var err = newName+ ' already exist';
                         next(err);
                     }
                     else {

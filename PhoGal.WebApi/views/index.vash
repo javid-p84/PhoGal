@@ -3,22 +3,26 @@
 
 
 <form action="/v3" method="post">
-    <input name="name" type="text"/>
+    <input name="name" type="text" />
     <input type="submit" />
+    <p style="color:red">
+        @if(model.msg)
+        @model.msg
+    </p>
 </form>
 
 
 <h1>
     @model.hey
 
+</h1>
 
     @model.others.forEach(function(obj){
-    <h2>
-        @obj.name
-    </h2>
-    <br />
 
-    });
-</h1>
-	});
-});
+        @obj.name
+        <br />
+
+    })
+
+	})
+})

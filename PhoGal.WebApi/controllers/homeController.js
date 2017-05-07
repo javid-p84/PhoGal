@@ -25,7 +25,12 @@
                 else {
 
 
-                    res.render("index", { title: "Exp+Vash", hey: "v2222222222222222222222222222222", others: results });
+                    res.render("index", {
+                        title: "Exp+Vash",
+                        hey: "v2222222222222222222222222222222",
+                        others: results,
+                        msg: req.flash('msg')
+                    });
                 }
             });
 
@@ -35,6 +40,8 @@
 
             data.createName(req.body.name, function (err) {
                 if (err) {
+                    req.flash('msg', err);
+                    res.redirect('/v2');
 
                 }
                 else {

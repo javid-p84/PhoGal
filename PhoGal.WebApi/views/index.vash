@@ -1,17 +1,24 @@
 ﻿@html.extend('layout',function(mdoel){
 	@html.block("body",function(model){
 
-	<h1>
-	@model.hey
+
+<form action="/v3" method="post">
+    <input name="name" type="text"/>
+    <input type="submit" />
+</form>
 
 
-	@model.others.forEach(function(obj){
-		<h1>
-		@obj.name
-		</h1>
-		<br/>
-	
-	});
-	</h1>
+<h1>
+    @model.hey
+
+
+    @model.others.forEach(function(obj){
+    <h2>
+        @obj.name
+    </h2>
+    <br />
+
+    });
+</h1>
 	});
 });

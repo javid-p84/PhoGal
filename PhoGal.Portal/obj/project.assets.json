@@ -8741,10 +8741,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Javid\\Source\\Repos\\PhoGal\\PhoGal.Portal\\PhoGal.Portal.csproj",
+      "projectUniqueName": "C:\\Users\\Javid\\Source\\Repos\\PhoGal\\PhoGal\\PhoGal.Portal\\PhoGal.Portal.csproj",
       "projectName": "PhoGal.Portal",
-      "projectPath": "C:\\Users\\Javid\\Source\\Repos\\PhoGal\\PhoGal.Portal\\PhoGal.Portal.csproj",
-      "outputPath": "C:\\Users\\Javid\\Source\\Repos\\PhoGal\\PhoGal.Portal\\obj\\",
+      "projectPath": "C:\\Users\\Javid\\Source\\Repos\\PhoGal\\PhoGal\\PhoGal.Portal\\PhoGal.Portal.csproj",
+      "outputPath": "C:\\Users\\Javid\\Source\\Repos\\PhoGal\\PhoGal\\PhoGal.Portal\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

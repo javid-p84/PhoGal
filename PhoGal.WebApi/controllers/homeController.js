@@ -25,6 +25,13 @@
             });
 
         });
+
+        app.post('/v3', function (req, res) {
+            console.log(req.body);
+
+            res.redirect('/v2');
+        });
+
     }
 
 })(module.exports);

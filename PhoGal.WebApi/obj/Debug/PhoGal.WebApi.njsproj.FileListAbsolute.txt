@@ -1,0 +1,2 @@
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.WebApi\obj\Debug\PhoGal.WebApi.njsprojResolveAssemblyReference.cache
+C:\Users\Javid\Source\Repos\PhoGal\PhoGal.WebApi\bin\Microsoft.NodejsTools.WebRole.dll

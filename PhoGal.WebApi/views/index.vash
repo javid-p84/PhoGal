@@ -1,0 +1,28 @@
+﻿@html.extend('layout',function(mdoel){
+	@html.block("body",function(model){
+
+
+<form action="/v3" method="post">
+    <input name="name" type="text" />
+    <input type="submit" />
+    <p style="color:red">
+        @if(model.msg)
+        @model.msg
+    </p>
+</form>
+
+
+<h1>
+    @model.hey
+
+</h1>
+
+    @model.others.forEach(function(obj){
+
+        @obj.name
+        <br />
+
+    })
+
+	})
+})

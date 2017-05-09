@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <script src="view/home/controllers/HomeController.js"></script>
+</head>
+<body ng-app="phg" ng-cloak>
+
+
+
+
+    {{1+2+3}}
+
+
+    <!--<img ng-src="{{'/assets/ang-index.png'}}" width="400px" alt="">-->
+    <!--<ng-include src="view/home/partials/Home.html" />-->
+    <div ng-controller="HomeController">
+        hellllllllllooooo    {{greeting}}
+
+
+
+        <br />
+        <pre>
+        {{mockData() | json}}
+        {{mockData()}}
+            <div ng-repeat="item in data.files"> 
+     wewe    {{item.url}}
+    </div>
+
+            <div ng-repeat="item in data.subAlbums"> 
+     wewe   <a href="{{item.url}}">itemurl : </a>
+    </div>
+</pre>
+
+    </div>
+
+</body>
+</html>

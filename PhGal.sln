@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoGal.Portal", "PhoGal.Portal\PhoGal.Portal.csproj", "{DF6DAD74-0E83-4823-81CB-595175321589}"
-EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PhoGal.WebApi", "PhoGal.WebApi\PhoGal.WebApi.njsproj", "{AD7EC09B-D552-46C7-9650-C7E1671C738C}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF6DAD74-0E83-4823-81CB-595175321589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF6DAD74-0E83-4823-81CB-595175321589}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF6DAD74-0E83-4823-81CB-595175321589}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF6DAD74-0E83-4823-81CB-595175321589}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD7EC09B-D552-46C7-9650-C7E1671C738C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD7EC09B-D552-46C7-9650-C7E1671C738C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7EC09B-D552-46C7-9650-C7E1671C738C}.Release|Any CPU.ActiveCfg = Release|Any CPU

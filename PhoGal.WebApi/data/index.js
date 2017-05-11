@@ -84,10 +84,26 @@
 
                 var name = { name: newName };
 
+
+
+                var fs = require('fs');
+
+                var dir = './tmp';
+
+                if (!fs.existsSync(dir)) {
+                    fs.mkdirSync(dir);
+
+                }
+
+
+                if (!fs.existsSync(newName)) {
+                    fs.mkdirSync(dir + '/' + newName);
+                }
+
                 db.notes.find(name).count(function (err, count) {
 
                     if (count > 0) {
-                        var err = newName+ ' already exist';
+                        var err = newName + ' already exist';
                         next(err);
                     }
                     else {

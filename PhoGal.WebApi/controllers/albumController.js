@@ -4,10 +4,11 @@
 
     albumController.init = function (app) {
 
-        app.get('/api/album', function (req, res) {
+        app.get('/api/album/:album', function (req, res) {
             var dir = './Gallery';
             var srcpath = dir;
 
+            console.log(req.params);
 
 
             if (!fs.existsSync(dir)) {
@@ -19,7 +20,7 @@
             var files = fs.readdirSync(srcpath).filter(file => fs.lstatSync(path.join(srcpath, file)).isFile());
 
 
-            res.send({ albums: dirs, files: files });
+            res.send({ albums: dirs, files: files, current: req.params.album });
 
         });
     };

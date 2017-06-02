@@ -1,5 +1,7 @@
 ﻿(function (homeController) {
     var data = require("../data");
+    var fs= require("fs");
+    var path= require("path");
 
     homeController.init = function (app) {
 
@@ -52,9 +54,31 @@
 
         });
 
+
+        app.get('/v4', function (req, res) {
+            var dir = './Gallery';
+            var srcpath = dir;
+
+
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir);
+            }
+
+
+            var dirs = fs.readdirSync(srcpath).filter(file => fs.lstatSync(path.join(srcpath, file)).isDirectory());
+            var files = fs.readdirSync(srcpath).filter(file => fs.lstatSync(path.join(srcpath, file)).isFile());
+
+            res.send({ albums: dirs, files: files });
+            
+            //res.render("index", { title: "Exp+Vash", hey: "hooooojlkjjlkjooooy", others: { files: files, albums: dirs } });
+
+
+
+        });
+
     }
 
 
 
-
+     
 })(module.exports);

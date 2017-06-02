@@ -17,11 +17,14 @@
 
 </h1>
 
-    @model.others.forEach(function(obj){
-
-        @obj.name
+    @model.others.files.forEach(function(file){
+        <p>file: @file</p> 
         <br />
+    })
 
+    @model.others.albums.forEach(function(album){
+        <p>dir: @album</p>
+        <br />
     })
 
 	})

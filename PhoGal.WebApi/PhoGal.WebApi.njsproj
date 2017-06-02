@@ -28,6 +28,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="controllers\albumController.js" />
     <Compile Include="controllers\homeController.js">
       <SubType>Code</SubType>
     </Compile>

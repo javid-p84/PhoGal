@@ -19,22 +19,22 @@
     <!--<img ng-src="{{'/assets/ang-index.png'}}" width="400px" alt="">-->
     <!--<ng-include src="view/home/partials/Home.html" />-->
     <div ng-controller="HomeController">
-        hellllllllllooooo    {{greeting}}
+        hellllllllllooooo is   {{greeting}} in Spanish
 
 
 
         <br />
-        <pre>
-        {{mockData() | json}}
-        {{mockData()}}
-            <div ng-repeat="item in data.files"> 
-     wewe    {{item.url}}
-    </div>
 
-            <div ng-repeat="item in data.subAlbums"> 
-     wewe   <a href="{{item.url}}">itemurl : </a>
-    </div>
-</pre>
+        <!--{{mockData() | json}}
+        {{mockData()}}-->
+        <div ng-repeat="item in data.files">
+            wewe    {{item.url}}
+        </div>
+
+        <div ng-repeat="item in data.subAlbums">
+            wewe   <a href="{{item.url}}">itemurl : </a>
+        </div>
+
 
     </div>
 

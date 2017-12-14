@@ -1,2 +1,5 @@
 C:\Users\Javid\Source\Repos\PhoGal\PhoGal.WebApi\obj\Debug\PhoGal.WebApi.njsprojResolveAssemblyReference.cache
 C:\Users\Javid\Source\Repos\PhoGal\PhoGal.WebApi\bin\Microsoft.NodejsTools.WebRole.dll
+D:\WORKSPACE\Projects\Phogsl-JP\PhoGal.WebApi\obj\Debug\PhoGal.WebApi.njsprojResolveAssemblyReference.cache
+D:\WORKSPACE\Projects\Phogsl-JP\PhoGal.WebApi\obj\Debug\PhoGal.WebApi.njsproj.CoreCompileInputs.cache
+D:\WORKSPACE\Projects\Phogsl-JP\PhoGal.WebApi\bin\Microsoft.NodejsTools.WebRole.dll

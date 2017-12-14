@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoGalWeb", "PhoGalWeb\PhoGalWeb.csproj", "{EBE5C1CD-3642-445D-B3D0-8572A6F14502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoApi", "PhoApi\PhoApi.csproj", "{598BA06A-3CCC-4A22-8737-87377237E398}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{EBE5C1CD-3642-445D-B3D0-8572A6F14502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE5C1CD-3642-445D-B3D0-8572A6F14502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE5C1CD-3642-445D-B3D0-8572A6F14502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598BA06A-3CCC-4A22-8737-87377237E398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598BA06A-3CCC-4A22-8737-87377237E398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598BA06A-3CCC-4A22-8737-87377237E398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598BA06A-3CCC-4A22-8737-87377237E398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B2641B-BC55-4A2E-9590-1EBAC451119F}
 	EndGlobalSection
 EndGlobal

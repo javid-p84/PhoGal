@@ -42,7 +42,7 @@ D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\bin\Microsoft.AI.DependencyColl
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\bin\Microsoft.AI.WindowsServer.xml
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\bin\Microsoft.AI.Web.xml
-D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\obj\Debug\PhoApi.csprojResolveAssemblyReference.cache
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\obj\Debug\PhoApi.csproj.CoreCompileInputs.cache
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\obj\Debug\PhoApi.dll
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\obj\Debug\PhoApi.pdb
+D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoApi\obj\Debug\PhoApi.csprojResolveAssemblyReference.cache

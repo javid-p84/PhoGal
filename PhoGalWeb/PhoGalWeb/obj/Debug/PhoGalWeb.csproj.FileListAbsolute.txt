@@ -97,3 +97,4 @@ D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoGalWeb\bin\Microsoft.CodeDom.Provid
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoGalWeb\obj\Debug\PhoGalWeb.csproj.CoreCompileInputs.cache
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoGalWeb\obj\Debug\PhoGalWeb.dll
 D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoGalWeb\obj\Debug\PhoGalWeb.pdb
+D:\WORKSPACE\Projects\Phogsl-JP\PhoGalWeb\PhoGalWeb\obj\Debug\PhoGalWeb.csprojResolveAssemblyReference.cache

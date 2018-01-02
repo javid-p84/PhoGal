@@ -1,7 +1,17 @@
 ﻿
-angular.module("phg", []).controller('HomeController', ['$scope', function ($scope) {
+angular.module("phg", []).controller('HomeController', ['$scope', '$http', function ($scope, $http) {
+
+    $http.get('http://localhost:61979/Api/Basics').then(function (response) {
+
+        $scope.result = response.data;
+    }
+    ).catch(function onError(response) {
+
+        $scope.varerrorr = 'contact JP';
+            });
 
     console.log("hiiiiiiiiiii");
+
 
 
     $scope.greeting = 'Hola!';
@@ -21,8 +31,8 @@ angular.module("phg", []).controller('HomeController', ['$scope', function ($sco
         ],
 
         subAlbums: [
-            { url: "/x/Florida" },
-            { url: "/x/Yosemite" },
+            { url: "assets/florida/img1.jpg" },
+            { url: "assets/Yosemite/img2.jpg" },
             { url: "/x/a3" },
             { url: "/x/a4" },
             { url: "/x/a5" },

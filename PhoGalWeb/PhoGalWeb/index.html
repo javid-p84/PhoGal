@@ -10,7 +10,7 @@
 </head>
 <body ng-app="phg" ng-cloak>
 
-
+  
 
 
     {{1+2+3}}
@@ -19,6 +19,11 @@
     <!--<img ng-src="{{'/assets/ang-index.png'}}" width="400px" alt="">-->
     <!--<ng-include src="view/home/partials/Home.html" />-->
     <div ng-controller="HomeController">
+
+        <h1>{{result}}</h1>
+        <h1>{{varerrorr}}</h1>
+        
+
         hellllllllllooooo is   {{greeting}} in Spanish
 
 
@@ -28,13 +33,14 @@
         <!--{{mockData() | json}}
         {{mockData()}}-->
         <div ng-repeat="item in data.files">
-            wewe    {{item.url}}
+            files    {{item.url}}
         </div>
 
         <div ng-repeat="item in data.subAlbums">
             wewe   <a href="{{item.url}}">itemurl : </a>
         </div>
 
+       
 
     </div>
 

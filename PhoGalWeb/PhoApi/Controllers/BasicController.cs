@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace PhoApi.Controllers
 {
+   // [RoutePrefix("api/Basic")]
     public class BasicController : ApiController
     {
         public IHttpActionResult Get()
